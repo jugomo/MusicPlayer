@@ -12,6 +12,12 @@
 		43AB4DE31C274A200018A857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AB4DE11C274A200018A857 /* Main.storyboard */; };
 		43AB4DE51C274A200018A857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AB4DE41C274A200018A857 /* Assets.xcassets */; };
 		43AB4DE81C274A200018A857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AB4DE61C274A200018A857 /* LaunchScreen.storyboard */; };
+		43F4ED561C2890E900CABE32 /* A-argentina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED501C2890E900CABE32 /* A-argentina.mp3 */; };
+		43F4ED571C2890E900CABE32 /* A-france.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED511C2890E900CABE32 /* A-france.mp3 */; };
+		43F4ED581C2890E900CABE32 /* A-mexico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED521C2890E900CABE32 /* A-mexico.mp3 */; };
+		43F4ED591C2890E900CABE32 /* A-peru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED531C2890E900CABE32 /* A-peru.mp3 */; };
+		43F4ED5A1C2890E900CABE32 /* A-spain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED541C2890E900CABE32 /* A-spain.mp3 */; };
+		43F4ED5B1C2890E900CABE32 /* A-venezuela.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43F4ED551C2890E900CABE32 /* A-venezuela.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		43AB4DE41C274A200018A857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43AB4DE71C274A200018A857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43AB4DE91C274A200018A857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F4ED501C2890E900CABE32 /* A-argentina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-argentina.mp3"; sourceTree = "<group>"; };
+		43F4ED511C2890E900CABE32 /* A-france.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-france.mp3"; sourceTree = "<group>"; };
+		43F4ED521C2890E900CABE32 /* A-mexico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-mexico.mp3"; sourceTree = "<group>"; };
+		43F4ED531C2890E900CABE32 /* A-peru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-peru.mp3"; sourceTree = "<group>"; };
+		43F4ED541C2890E900CABE32 /* A-spain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-spain.mp3"; sourceTree = "<group>"; };
+		43F4ED551C2890E900CABE32 /* A-venezuela.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-venezuela.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		43AB4DDC1C274A1E0018A857 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				43F4ED4F1C2890D000CABE32 /* sounds */,
 				43AB4DDD1C274A1F0018A857 /* AppDelegate.swift */,
 				43AB4DDF1C274A1F0018A857 /* ViewController.swift */,
 				43AB4DE11C274A200018A857 /* Main.storyboard */,
@@ -62,6 +75,20 @@
 				43AB4DE91C274A200018A857 /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		43F4ED4F1C2890D000CABE32 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				43F4ED501C2890E900CABE32 /* A-argentina.mp3 */,
+				43F4ED511C2890E900CABE32 /* A-france.mp3 */,
+				43F4ED521C2890E900CABE32 /* A-mexico.mp3 */,
+				43F4ED531C2890E900CABE32 /* A-peru.mp3 */,
+				43F4ED541C2890E900CABE32 /* A-spain.mp3 */,
+				43F4ED551C2890E900CABE32 /* A-venezuela.mp3 */,
+			);
+			name = sounds;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +150,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F4ED561C2890E900CABE32 /* A-argentina.mp3 in Resources */,
+				43F4ED581C2890E900CABE32 /* A-mexico.mp3 in Resources */,
+				43F4ED5A1C2890E900CABE32 /* A-spain.mp3 in Resources */,
+				43F4ED591C2890E900CABE32 /* A-peru.mp3 in Resources */,
 				43AB4DE81C274A200018A857 /* LaunchScreen.storyboard in Resources */,
 				43AB4DE51C274A200018A857 /* Assets.xcassets in Resources */,
+				43F4ED5B1C2890E900CABE32 /* A-venezuela.mp3 in Resources */,
+				43F4ED571C2890E900CABE32 /* A-france.mp3 in Resources */,
 				43AB4DE31C274A200018A857 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,6 +320,7 @@
 				43AB4DEE1C274A200018A857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
